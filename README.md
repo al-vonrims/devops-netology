@@ -15,4 +15,5 @@
 11. `*tfplan*` Игнорировать все файлы, содержащие в имени tfplan
 12. `.terraformrc` Исключить все файлы с именем .terraformrc
 13. `terraform.rc` Исключить все файлы с именем terraform.rc
+14. New Line
  
