@@ -76,7 +76,7 @@ config.vm.network "forwarded_port", guest: 19999, host: 19999
 
 Выполнено:
 
-![Netdata](img/netdata.jpg)
+![Netdata](https://github.com/al-vonrims/devops-netology/blob/main/homeworks/03-sysadmin-04-os/img/netdata.JPG)
 
 #### 4. Можно ли по выводу `dmesg` понять, осознает ли ОС, что загружена не на настоящем оборудовании, а на системе виртуализации?
 Можно, в выводе будут следующие строки:
