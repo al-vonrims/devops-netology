@@ -32,9 +32,15 @@ cd is a shell builtin
 
 #### 8. Получится ли в качестве входного потока для pipe использовать только stderr команды, не потеряв при этом отображение stdout на pty? Напоминаем: по умолчанию через pipe передается только stdout команды слева от | на stdin команды справа. Это можно сделать, поменяв стандартные потоки местами через промежуточный новый дескриптор, который вы научились создавать в предыдущем вопросе.
 Да, получится:
-```bash
-bash 5>&1
-ls -z 2>&1 1>&5 | grep "invalid option"
+```
+root@vagrant:~# ls -z 5>&1 1>&2 2>&5 5>&- | grep "invalid option"
+ls: invalid option -- 'z'
+root@vagrant:~#
+root@vagrant:~# ls -l 5>&1 1>&2 2>&5 5>&- | grep "invalid option"
+total 8828
+-rw-r--r-- 1 root root       0 Jan 13 11:00 1.txt
+drwxr-xr-x 2 3434 3434    4096 Dec  5 11:15 node_exporter-1.3.1.linux-amd64
+-rw-r--r-- 1 root root 9033415 Dec  8 08:52 node_exporter-1.3.1.linux-amd64.tar.gz
 ```
 
 #### 9. Что выведет команда `cat /proc/$$/environ`? Как еще можно получить аналогичный по содержанию вывод?
