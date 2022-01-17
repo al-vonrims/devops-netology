@@ -3,11 +3,11 @@
 ## Домашнее задание к занятию "3.9. Элементы безопасности информационных систем"
 
 #### 1. Установите Bitwarden плагин для браузера. Зарегистрируйтесь и сохраните несколько паролей.
-Выполнено:
+Выполнено:  
 ![Bitwarden](https://github.com/al-vonrims/devops-netology/blob/main/homeworks/03-sysadmin-09-security/img/Bitwarden.JPG)
 
 #### 2. Установите Google authenticator на мобильный телефон. Настройте вход в Bitwarden акаунт через Google authenticator OTP.
-Выполнено:
+Выполнено:  
 ![auth](https://github.com/al-vonrims/devops-netology/blob/main/homeworks/03-sysadmin-09-security/img/auth.JPG)
 #### 3. Установите apache2, сгенерируйте самоподписанный сертификат, настройте тестовый сайт для работы по HTTPS.
 Установка apache2:  
