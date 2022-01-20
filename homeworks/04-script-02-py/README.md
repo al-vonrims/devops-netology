@@ -99,9 +99,9 @@ terraform-main/README.md
 aleks@trpc:/mnt/c/Users/Aleksandr/PycharmProjects/netology.devops$ python3 task3.py devops-netology
 devops-netology/README.md
 devops-netology/homeworks/02-git-04-tools/README.md
-aleks@trpc:/mnt/c/Users/Aleksandr/PycharmProjects/netology.devops$ python3 test2.py test
+aleks@trpc:/mnt/c/Users/Aleksandr/PycharmProjects/netology.devops$ python3 task3.py test
 test directory not found
-aleks@trpc:/mnt/c/Users/Aleksandr/PycharmProjects/netology.devops$ python3 test2.py test test2
+aleks@trpc:/mnt/c/Users/Aleksandr/PycharmProjects/netology.devops$ python3 task3.py test test2
 To Many arguments
 ```
 
